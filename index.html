@@ -12,6 +12,7 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <script src="./App.js"></script>
   </head>
   <body>
     <div class="container">
@@ -22,12 +23,42 @@
         Enter the code below to confirm your email adress.
       </p>
       <div class="inputRow">
-        <input type="text" placeholder="0" maxlength="1" />
-        <input type="text" placeholder="0" maxlength="1" />
-        <input type="text" placeholder="0" maxlength="1" />
-        <input type="text" placeholder="0" maxlength="1" />
-        <input type="text" placeholder="0" maxlength="1" />
-        <input type="text" placeholder="0" maxlength="1" />
+        <input
+          type="text"
+          id="1"
+          placeholder="0"
+          maxlength="1"
+          onkeyup="clickevent(this,'2')"
+        />
+        <input
+          type="text"
+          id="2"
+          placeholder="0"
+          maxlength="1"
+          onkeyup="clickevent(this,'3')"
+        />
+        <input
+          type="text"
+          id="3"
+          placeholder="0"
+          maxlength="1"
+          onkeyup="clickevent(this,'4')"
+        />
+        <input
+          type="text"
+          id="4"
+          placeholder="0"
+          maxlength="1"
+          onkeyup="clickevent(this,'5')"
+        />
+        <input
+          type="text"
+          id="5"
+          placeholder="0"
+          maxlength="1"
+          onkeyup="clickevent(this,'6')"
+        />
+        <input type="text" id="6" placeholder="0" maxlength="1" />
       </div>
     </div>
   </body>

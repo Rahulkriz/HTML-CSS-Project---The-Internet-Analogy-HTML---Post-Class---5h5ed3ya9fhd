@@ -11,6 +11,7 @@ input::-webkit-inner-spin-button {
 }
 
 .container{
+  background-color: #00FFF6;
   justify-content: center;
   margin-top: 10%;
     text-align: center;
